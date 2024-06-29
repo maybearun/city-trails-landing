@@ -1,0 +1,96 @@
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>City Trails</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+         rel="stylesheet">
+     <style>
+
+     </style>
+         <link rel="stylesheet", href="index.css">
+
+ </head>
+ <body class="gradient-overlay h-screen">
+     <nav>
+        <div class="flex justify-center items-center p-5 m-4">
+            <h1 class="text-4xl font-bold">City Trails</h1>
+        </div>
+     </nav>
+     <div class="grid place-items-center">
+         <main class="m-32">
+            <div class="flex justify-center items-center">
+                <h2 class="text-6xl">
+                    Your itinerary, on a map
+                </h2>
+            </div>
+            <div class="flex justify-center items-center m-8">
+                <p class="text-2xl">An app where you can plan routes for a simple day out or a multiple day trip around any city in the world.</p>
+            </div>
+            <div class="flex justify-center items-center">
+                <button class="bg-yellow-500 text-gray-900 px-6 py-3 rounded-full hover:bg-yellow-600">Coming Soon</button>
+            </div>
+         </main>
+     </div>
+
+     <div class="footer">
+         <footer class="flex justify-end m-4">
+            <p class="text-lg">a nights & weekends s5 project</p>
+         </footer>
+     </div>
+ </body>
+ </html>
+  -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>City Trails</title>
+      <link rel="stylesheet", href="index.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <style>
+          .bg-pattern {
+              background-color: #0f4331;
+              background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23165e45' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+          }
+          .glassmorphism {
+              background: rgba(255, 255, 255, 0.05);
+              backdrop-filter: blur(5px);
+              border-radius: 16px;
+              border: 1px solid rgba(255, 255, 255, 0.1);
+          }
+      </style>
+  </head>
+  <body class=" bg-pattern min-h-screen flex items-center justify-center p-4">
+      <div class="glassmorphism p-8 w-full max-w-md mx-auto flex flex-col justify-between" style="height: 90vh; width: 100%;">
+          <div class="title-section mt-8">
+              <h1 class="text-2xl font-semibold text-white font-sans text-center">City Trails</h1>
+          </div>
+          
+          <div class="content-section space-y-12">
+              <h2 class="text-4xl text-emerald-200 font-['Mukta'] text-center">your itinerary, on a map</h2>
+              
+              <p class="text-white font-['Mukta'] text-xl text-center">
+                  An app where you can plan routes for a simple day out or a multiple day trip around any city in the world.
+              </p>
+          </div>
+          
+          <div class="footer-section flex flex-col items-center space-y-8 mb-8">
+              <button class="bg-white bg-opacity-10 hover:bg-opacity-20 text-white font-bold py-2 px-6 rounded-full transition duration-300">
+                  coming soon
+              </button>
+              
+              <p class="text-emerald-200 text-sm font-['Caveat']">
+                  a nights and weekends project
+              </p>
+          </div>
+      </div>
+  </body>
+  </html>
